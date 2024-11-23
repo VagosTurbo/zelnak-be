@@ -1,16 +1,28 @@
 {
-  "name": "express-hello-world",
-  "version": "1.0.0",
-  "description": "Express Hello World on Render",
-  "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "express": "^5.0.0"
-  }
+    "name": "zelnak-be",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "events": "^3.3.0",
+        "express": "^4.21.1",
+        "jsonwebtoken": "^9.0.2",
+        "jwt-decode": "^4.0.0",
+        "jwt-token": "^1.0.9",
+        "mssql": "^11.0.1",
+        "mysql2": "^3.9.7",
+        "nodemon": "^3.1.0"
+    }
 }
